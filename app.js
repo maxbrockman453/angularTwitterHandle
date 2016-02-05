@@ -11,8 +11,8 @@ myApp.controller('mainController', ['$scope', '$filter', function($scope, $filte
   $scope.characters = 5;
 
   $scope.rules = [
-    { rulename: 'Must be 5 characters'},
-    { rulename: 'Must not be taken'},
+    { rulename: 'Must be at least 5 characters'},
+    { rulename: 'Must not already exist'},
     { rulename: 'Must be cool!'}
   ]
 
